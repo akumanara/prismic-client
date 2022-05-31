@@ -1624,8 +1624,7 @@ export class Client {
 				);
 			}
 		}
-		console.log('q');
-
+		console.log('elisabeth');
 		console.log(res.status);
 		console.log(JSON.stringify(json));
 		console.log(JSON.stringify(res));
