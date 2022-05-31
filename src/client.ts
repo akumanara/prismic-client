@@ -1590,6 +1590,8 @@ export class Client {
 					undefined,
 				);
 			} else {
+				console.log('a');
+				console.log(JSON.stringify(res));
 				throw new PrismicError(undefined, url, undefined);
 			}
 		}
@@ -1622,7 +1624,8 @@ export class Client {
 				);
 			}
 		}
-
+		console.log('b');
+		console.log(JSON.stringify(res));
 		throw new PrismicError(undefined, url, json);
 	}
 }
