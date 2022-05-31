@@ -601,7 +601,8 @@ class Client {
         throw new ForbiddenError("error" in json ? json.error : json.message, url, json);
       }
     }
-    console.log("b");
+    console.log("q");
+    console.log(res.status);
     console.log(JSON.stringify(json));
     console.log(JSON.stringify(res));
     throw new PrismicError(void 0, url, json);
