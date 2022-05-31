@@ -1625,6 +1625,7 @@ export class Client {
 			}
 		}
 		console.log('b');
+		console.log(JSON.stringify(json));
 		console.log(JSON.stringify(res));
 		throw new PrismicError(undefined, url, json);
 	}
